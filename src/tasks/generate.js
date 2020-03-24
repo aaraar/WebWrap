@@ -18,7 +18,7 @@ function generateIndex () {
         path.join ( __dirname, '..', 'Pages/home.pug' ),
         {
             title: siteTitle,
-            pageTitle: "Home",
+            pageTitle: "Bas de Greeuw",
         } );
 }
 

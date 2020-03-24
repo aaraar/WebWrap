@@ -12,12 +12,35 @@ main {
 }
 
 header {
+  padding: 1em;
   background: $primary;
   color: $secondary;
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  &.large {
+    height: initial;
+  }
+
+  img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 20px rgba(0,0,0,0.2);
+  }
+
+  .ghMark {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    svg {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 h2 {

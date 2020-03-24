@@ -13,7 +13,8 @@
     "dev": "node src/tasks/generate.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "@babel/core": "^7.8.7",
