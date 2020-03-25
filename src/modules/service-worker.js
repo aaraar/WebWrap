@@ -1,9 +1,9 @@
 const CORE_ASSETS = [
-    '/',
-    '/404',
-    '/offline',
-    '/favicon/favicon.ico',
-    '/assets/images/core/fallback.png'
+    './',
+    './404',
+    './offline',
+    './favicon/favicon.ico',
+    './assets/images/core/fallback.png'
 ].concat ( serviceWorkerOption.assets );
 
 self.addEventListener ( 'install', ( event ) => {
